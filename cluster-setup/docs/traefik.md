@@ -21,9 +21,9 @@ kubectl apply -f cluster-setup/configs/traefik/dashboard.yaml
 
 ### 3. Add a local DNS record
 
-Add a DNS record in Pi-hole (Local DNS > DNS Records) pointing `hahafhaharpi4.local` to a cluster node IP.
+Add a DNS record in Pi-hole (Local DNS > DNS Records) pointing `hahafhaha-traefik.com` to a cluster node IP.
 
-The Traefik dashboard is then accessible at `http://hahafhaharpi4.local/dashboard/`.
+The Traefik dashboard is then accessible at `http://hahafhaha-traefik.com/dashboard/`.
 
 Note: the trailing slash on `/dashboard/` is required.
 

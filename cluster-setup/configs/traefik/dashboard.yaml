@@ -18,7 +18,7 @@ spec:
     - traefik
   routes:
     - kind: Rule
-      match: Host(`hahafhaharpi4.local`) && (PathPrefix(`/dashboard`) || PathPrefix(`/api`))
+      match: Host(`hahafhaha-traefik.com`) && (PathPrefix(`/dashboard`) || PathPrefix(`/api`))
       middlewares:
         - name: traefik-auth-middleware
       services:

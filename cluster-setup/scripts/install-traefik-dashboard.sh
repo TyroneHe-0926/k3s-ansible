@@ -22,4 +22,4 @@ kubectl apply -f "$CONFIGS_DIR/dashboard.yaml"
 
 echo ""
 echo "Traefik dashboard is configured."
-echo "  URL: http://hahafhaharpi4.local/dashboard/ (add DNS record in Pi-hole)"
+echo "  URL: http://hahafhaha-traefik.com/dashboard/ (add DNS record in Pi-hole)"
