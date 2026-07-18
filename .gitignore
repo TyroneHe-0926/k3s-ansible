@@ -6,3 +6,4 @@ inventory.yml
 playbook/debug.yml
 .ansible/
 PR_DESCRIPTION.md
+cluster-setup/configs/pihole/secret.yaml
